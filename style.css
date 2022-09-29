@@ -1,0 +1,105 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-cont {
+    background-color: #ffb266;
+    width: 100%;
+    height: 15vh;
+}
+
+.ul-nav {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-nav {
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 4px;
+    color: #c60;
+}
+
+.li-nav:hover {
+    background-color: white;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 10px;
+}
+.a-nav {
+    color: #c60;
+    text-decoration: none;
+    font-weight: 600;
+}
+.content-cont {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.a-content {
+    background-color: #ffb266;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #300;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 14px;
+    box-shadow: 10px -7px 9px -3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px -7px 9px -3px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px -7px 9px -3px rgba(0,0,0,0.5);
+}
+img {
+    width: 55%;
+    height: 75%;
+    margin-top: 8px;
+}
+
+.footer-cont {
+    height: 10vh;
+    background-color: #ffb266;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot1 {
+    font-size: 30px;
+    color: #300;
+}
+
+/** CSS for menu.html **/
+.menu-content {
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.menu {
+    background-color: #ffb266;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #300;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 14px;
+    margin: auto;
+}
+
